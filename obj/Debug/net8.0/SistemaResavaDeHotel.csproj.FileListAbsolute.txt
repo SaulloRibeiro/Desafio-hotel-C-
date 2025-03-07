@@ -1,0 +1,14 @@
+C:\Users\mathe\OneDrive\Documentos\Saullo\meus_estudos\C#\Aula14\SistemaResavaDeHotel\SistemaResavaDeHotel\bin\Debug\net8.0\SistemaResavaDeHotel.exe
+C:\Users\mathe\OneDrive\Documentos\Saullo\meus_estudos\C#\Aula14\SistemaResavaDeHotel\SistemaResavaDeHotel\bin\Debug\net8.0\SistemaResavaDeHotel.deps.json
+C:\Users\mathe\OneDrive\Documentos\Saullo\meus_estudos\C#\Aula14\SistemaResavaDeHotel\SistemaResavaDeHotel\bin\Debug\net8.0\SistemaResavaDeHotel.runtimeconfig.json
+C:\Users\mathe\OneDrive\Documentos\Saullo\meus_estudos\C#\Aula14\SistemaResavaDeHotel\SistemaResavaDeHotel\bin\Debug\net8.0\SistemaResavaDeHotel.dll
+C:\Users\mathe\OneDrive\Documentos\Saullo\meus_estudos\C#\Aula14\SistemaResavaDeHotel\SistemaResavaDeHotel\bin\Debug\net8.0\SistemaResavaDeHotel.pdb
+C:\Users\mathe\OneDrive\Documentos\Saullo\meus_estudos\C#\Aula14\SistemaResavaDeHotel\SistemaResavaDeHotel\obj\Debug\net8.0\SistemaResavaDeHotel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mathe\OneDrive\Documentos\Saullo\meus_estudos\C#\Aula14\SistemaResavaDeHotel\SistemaResavaDeHotel\obj\Debug\net8.0\SistemaResavaDeHotel.AssemblyInfoInputs.cache
+C:\Users\mathe\OneDrive\Documentos\Saullo\meus_estudos\C#\Aula14\SistemaResavaDeHotel\SistemaResavaDeHotel\obj\Debug\net8.0\SistemaResavaDeHotel.AssemblyInfo.cs
+C:\Users\mathe\OneDrive\Documentos\Saullo\meus_estudos\C#\Aula14\SistemaResavaDeHotel\SistemaResavaDeHotel\obj\Debug\net8.0\SistemaResavaDeHotel.csproj.CoreCompileInputs.cache
+C:\Users\mathe\OneDrive\Documentos\Saullo\meus_estudos\C#\Aula14\SistemaResavaDeHotel\SistemaResavaDeHotel\obj\Debug\net8.0\SistemaResavaDeHotel.dll
+C:\Users\mathe\OneDrive\Documentos\Saullo\meus_estudos\C#\Aula14\SistemaResavaDeHotel\SistemaResavaDeHotel\obj\Debug\net8.0\refint\SistemaResavaDeHotel.dll
+C:\Users\mathe\OneDrive\Documentos\Saullo\meus_estudos\C#\Aula14\SistemaResavaDeHotel\SistemaResavaDeHotel\obj\Debug\net8.0\SistemaResavaDeHotel.pdb
+C:\Users\mathe\OneDrive\Documentos\Saullo\meus_estudos\C#\Aula14\SistemaResavaDeHotel\SistemaResavaDeHotel\obj\Debug\net8.0\SistemaResavaDeHotel.genruntimeconfig.cache
+C:\Users\mathe\OneDrive\Documentos\Saullo\meus_estudos\C#\Aula14\SistemaResavaDeHotel\SistemaResavaDeHotel\obj\Debug\net8.0\ref\SistemaResavaDeHotel.dll
