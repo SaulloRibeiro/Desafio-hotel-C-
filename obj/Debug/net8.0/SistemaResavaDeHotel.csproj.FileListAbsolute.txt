@@ -12,3 +12,4 @@ C:\Users\mathe\OneDrive\Documentos\Saullo\meus_estudos\C#\Aula14\SistemaResavaDe
 C:\Users\mathe\OneDrive\Documentos\Saullo\meus_estudos\C#\Aula14\SistemaResavaDeHotel\SistemaResavaDeHotel\obj\Debug\net8.0\SistemaResavaDeHotel.pdb
 C:\Users\mathe\OneDrive\Documentos\Saullo\meus_estudos\C#\Aula14\SistemaResavaDeHotel\SistemaResavaDeHotel\obj\Debug\net8.0\SistemaResavaDeHotel.genruntimeconfig.cache
 C:\Users\mathe\OneDrive\Documentos\Saullo\meus_estudos\C#\Aula14\SistemaResavaDeHotel\SistemaResavaDeHotel\obj\Debug\net8.0\ref\SistemaResavaDeHotel.dll
+C:\Users\mathe\OneDrive\Documentos\Saullo\meus_estudos\C#\Aula14\SistemaResavaDeHotel\SistemaResavaDeHotel\obj\Debug\net8.0\SistemaResavaDeHotel.sourcelink.json

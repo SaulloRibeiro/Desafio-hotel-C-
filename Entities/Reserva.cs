@@ -7,15 +7,14 @@ namespace SistemaResavaDeHotel.Entities {
         public Quarto Quarto { get; set; }
         public DateTime DataEntrada { get; set; }
         public DateTime DataSaida { get; set; }
-        public int NumeroReserva { get; private set; } = 99;
-
+        public int NumeroReserva { get; set; }
         public Reserva() { }
-        public Reserva(Hospede hospede, Quarto quarto, DateTime dataEntrada, DateTime dataSaida) {
+        public Reserva(Hospede hospede, Quarto quarto, DateTime dataEntrada, DateTime dataSaida, int numeroReserva) {
             Hospede = hospede;
             Quarto = quarto;
             DataEntrada = dataEntrada;
             DataSaida = dataSaida;
-            NumeroReserva += 1;
+            NumeroReserva = numeroReserva;
         }
 
         public double CalcularValorTotalDaHospedagem() {

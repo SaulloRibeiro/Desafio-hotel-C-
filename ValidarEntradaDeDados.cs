@@ -115,34 +115,38 @@ namespace SistemaResavaDeHotel {
             return quarto;
         }
 
-
+        private static void MsgParaDataInvalida() {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("Data invalida! Tente novamente");
+            Console.ResetColor();
+        }
         private static DateTime ValidarData(string msg) {
-            DateTime dataValidada = new DateTime();
+            DateTime dataInseridaPeloUsuario = new DateTime();
+            DateTime dataHoje = DateTime.Now;
             string data;
             bool flag = true;
 
             while (flag) {
                 Console.Write(msg);
-                data = Console.ReadLine();
-
-                if (!string.IsNullOrWhiteSpace(data)) {
+                data = Console.ReadLine(); 
+                if (!string.IsNullOrWhiteSpace(data) && data.Length == 10) {
                     try {
-                        dataValidada = DateTime.Parse(data);
-                        flag = false;
+                        dataInseridaPeloUsuario = DateTime.Parse(data);
+                        if(DateTime.Compare(dataInseridaPeloUsuario, dataHoje.Date) >= 0)
+                            flag = false;
+                        else 
+                            MsgParaDataInvalida();
+                        
                     }
                     catch {
-                        Console.ForegroundColor = ConsoleColor.Red;
-                        Console.WriteLine("Data invalida! Tente novamente");
-                        Console.ResetColor();
+                        MsgParaDataInvalida();
                     }
                 }
                 else {
-                    Console.ForegroundColor = ConsoleColor.Yellow;
-                    Console.WriteLine("Este campo presisa ser preenchido com valores validos");
-                    Console.ResetColor();
+                    MsgParaDataInvalida();
                 }
             }
-            return dataValidada;
+            return dataInseridaPeloUsuario;
 
         }
 
@@ -161,8 +165,8 @@ namespace SistemaResavaDeHotel {
                 if (valor < 0)
                     flag = false;
                 else {
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("Data de saida e invalida! Pois a data saida corresponde periodo antes da data de entrada!");
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.WriteLine("Por regra do hotel, o hospede deve ficar de um dia para mais para reservar o quarto!");
                     Console.ResetColor();
                 }
             }

@@ -17,7 +17,7 @@ namespace SistemaResavaDeHotel.Entities {
             for(int index = 0; index < qtdQuartosDuplos; index++) {
                 Quartos.Add(new Quarto(Quartos.Count + 1, TiposQuarto.Duplo, _precoDiariaQuartoDuplo));
             }
-            for(int index = 0; index < qtdQuartosDuplos; index++) {
+            for(int index = 0; index < qtdQuartosSuites; index++) {
                 Quartos.Add(new Quarto(Quartos.Count + 1, TiposQuarto.Suite, _precoDiariaQuartoSuite));
             }
             Capacidade = qtdQuartosSimples + qtdQuartosDuplos + qtdQuartosSuites;

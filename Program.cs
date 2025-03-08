@@ -19,6 +19,7 @@ public class Program {
         Console.Clear();
 
         bool flag = true;
+        int numeroReserva = 99;
         while (flag) {
 
             int opcao = ValidarEntradaDeDados.MenuOpcoes();
@@ -26,13 +27,14 @@ public class Program {
 
             switch (opcao){
                 case 1:
+                    numeroReserva++;
                     Console.WriteLine(hotel.ExibirDisponibilidade());
                     Quarto quarto = ValidarEntradaDeDados.ValidarEscolhaDoQuarto(hotel);
                     if(quarto != null) {
                         Hospede hospede = ValidarEntradaDeDados.DadosUsuarioParaReserva();
                         DateTime dataEntrada = ValidarEntradaDeDados.DataEntrada();
                         DateTime dataSaida = ValidarEntradaDeDados.DataSaida(dataEntrada);
-                        Reserva reserva = new Reserva(hospede, quarto, dataEntrada, dataSaida);
+                        Reserva reserva = new Reserva(hospede, quarto, dataEntrada, dataSaida, numeroReserva);
                         hotel.ReservarQuarto(reserva);
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Reserva feita com sucesso! :)");
